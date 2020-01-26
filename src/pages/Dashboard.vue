@@ -402,6 +402,36 @@ export default {
    //          });
    //    }
    //  },
+
+      // Second scenario
+//       merakiRequest()
+//       {
+//        axios.get('https://api.meraki.com/api/v0/networks/L_566327653141843049/devices', {
+// 	headers: {
+// 	  'Access-Control-Allow-Origin': '*',
+//       'Accept' : 'application/json',
+//       'X-Cisco-Meraki-API-Key': '6bec40cf957de430a6f1f2baa056b99a4fac9ea0'
+// 	},
+// 	}).then(function (response) {
+// 		console.log('response is : ' + response.data);
+// 	}).catch(function (error) {
+// 		if (error.response) {
+// 		  console.log(error.response.headers);
+// 		}
+// 		else if (error.request) {
+// 	      console.log(error.request);
+// 		}
+// 		else {
+// 		  console.log(error.message);
+// 		}
+// 	console.log(error.config);
+// });
+//
+//
+//
+//       }
+
+      // end second scenario
     test(){
     console.log(`TEST3`);
     }
